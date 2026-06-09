@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- <script defer src="practice.js"></script> -->
+  <script defer src="external.js"></script>
+  <link rel="stylesheet" href="practice.css">
+  <title>practice-code</title>
+</head>
+<body>
+  <main class="content" id="content">
+  <div class="intro-container" id="intro-container">
+  <h1 class="head-text" id="headtxt"></h1>
+  <p class="instruction" id="instruction"></p>
+  <input type="text" id="username" placeholder="Enter your name">
+  <button class="proceed" id="proceedBtn"></button>
+  </div>
+
+   <div class="overlay" id="overlay">
+    <div class="modal" id="modal">
+      <h1 class="welcometxt" id="welcometxt"></h1>
+      <p class="instructiontxt" id="instructiontxt"></p>
+      <div class="button-separate">
+      <button class="exit" id="exitBtn"></button>
+       <button class="continue" id="continueBtn"></button>
+    </div>
+    
+   </div>
+   </div>
+
+  <div class="game-mode" id="game-mode">
+    <h1 class="gameheadtxt" id="gameheadtxt"></h1>
+    <p class="gameinstruct" id="gameinstruct"></p>
+
+    <div class="choices" id="choices">
+      <button class="choice" id="rock"></button>
+      <button class="choice" id="paper"></button>
+      <button class="choice" id="scissor"></button>
+    </div>
+
+    <div class="scoreboard" id="scoreboard">
+      <p class="score" id="player-choice"></p>
+      <p class="score" id="computer-choice"></p>
+      </div>
+
+    <div class="message" id="message-card">
+      <p class="message-text" id="message-text"></p>
+    </div>
+
+  </div>
+
+  </main>
+</body>
+</html>
